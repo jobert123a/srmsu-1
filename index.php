@@ -1,5 +1,5 @@
 <?php
-   include("db/config.php");
+   include("zdb/config.php");
    session_start();
    
     if($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -17,7 +17,7 @@
             $type = "Groups";
         }
         $_SESSION['login_usertype'] = $type;
-        header("location: ui/$type/dashboard.php");
+        header("location: $type/dashboard.php");
       }else {
          $error = "Your Username or Password is invalid";
       }

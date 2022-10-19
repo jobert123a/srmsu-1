@@ -1,5 +1,5 @@
 <?php
-  include('../../db/sessions.php');
+  include('../zdb/sessions.php');
    
 ?>
 <!DOCTYPE html>
@@ -8,7 +8,6 @@
     <meta charset="UTF-8">
     <title> Student Research Monitoring System </title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="table.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
@@ -32,14 +31,14 @@
          <span class="tooltip" >Dashboard</span>
       </li>
       <li>
-       <a href="monitoringoftitles.php" style="background-color:#FFFFFF;">
+       <a href="monitoringofresearchprogress.php" style="background-color:#FFFFFF;">
          <i class='bx bx-user' style="color:black;"></i>
          <span class="links_name" style="color:black;">List of Titles</span>
        </a>
        <span class="tooltip">List of Titles</span>
      </li>
      <li>
-       <a href="monitoringofresearchprogress.php" style="background-color:#FFFFFF;">
+       <a href="monitoringoftitles.php" style="background-color:#FFFFFF;">
          <i class='bx bx-pie-chart-alt-2' style="color:black;" ></i>
          <span class="links_name" style="color:black;">Research Progress</span>
        </a>
@@ -64,11 +63,9 @@
 	    <h2>Laguna State Polytechnic University</h2>
 	    <h4>Province of Laguna</h4>
       <h5>Bachelor of Science in Information Technology</h5>
-    </center>
-    <br>
-    <br>
-  <h1  style="text-align: center"> Dashboard </h1>
-  
+    </center><div class="text">Dashboard</div>
+  </section>
+
   <script src="script.js"></script>
 
 </body>

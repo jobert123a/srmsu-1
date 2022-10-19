@@ -1,6 +1,5 @@
 <?php
-  include('../../db/sessions.php');
-   
+   include('../zdb/sessions.php');
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -31,24 +30,32 @@
          <span class="tooltip" >Dashboard</span>
       </li>
       <li>
-       <a href="monitoringofresearchprogress.php" style="background-color:#FFFFFF;">
+       <a href="addtitleproposal.php" style="background-color:#FFFFFF;">
          <i class='bx bx-user' style="color:black;"></i>
-         <span class="links_name" style="color:black;">List of Titles</span>
+         <span class="links_name" style="color:black;">Title Proposal</span>
        </a>
-       <span class="tooltip">List of Titles</span>
+       <span class="tooltip">Title Proposal</span>
      </li>
      <li>
-       <a href="monitoringoftitles.php" style="background-color:#FFFFFF;">
+       <a href="uploaddocument.php" style="background-color:#FFFFFF;">
          <i class='bx bx-pie-chart-alt-2' style="color:black;" ></i>
-         <span class="links_name" style="color:black;">Research Progress</span>
+         <span class="links_name" style="color:black;">Upload Documents</span>
        </a>
-       <span class="tooltip">Research Progress</span>
+       <span class="tooltip">Upload Documents</span>
+     </li>
+     <li>
+       <a href="chat.php" style="background-color:#FFFFFF;">
+         <i class='bx bx-pie-chart-alt-2' style="color:black;" ></i>
+         <span class="links_name"style="color:black;">Chat/Message</span>
+       </a>
+       <span class="tooltip">Chat/Message</span>
      </li>
      <li>
      <li class="profile" style="background-color:#202020;">
          <div class="profile-details">
            <div class="name_job">
              <div class="name">Astrid Gaile</div>
+             <div class="job">Admin</div>
            </div>
          </div>
          <i class='bx bx-log-out' id="log_out" style="background-color:#202020;" ></i>
@@ -56,14 +63,14 @@
     </ul>
   </div>
   <section class="home-section" style="background-image: url('BG2.jpg');">
-  <center><br><br>
-      <img src="logo2.png" align="right" height="100px" width="100px">
-      <img src="Logo.png" align="left" height="100px" width="100px">
-      <h3>Republic of the Philippines</h3>
-	    <h2>Laguna State Polytechnic University</h2>
-	    <h4>Province of Laguna</h4>
-      <h5>Bachelor of Science in Information Technology</h5>
-    </center><div class="text">Dashboard</div>
+      <center><br><br>
+        <img src="logo2.png" align="right" height="100px" width="100px">
+        <img src="Logo.png" align="left" height="100px" width="100px">
+        <h3>Republic of the Philippines</h3>
+        <h2>Laguna State Polytechnic University</h2>
+        <h4>Province of Laguna</h4>
+        <h5>Bachelor of Science in Information Technology</h5>
+      </center>
   </section>
 
   <script src="script.js"></script>

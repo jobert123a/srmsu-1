@@ -1,5 +1,5 @@
 <?php
-  include('../../db/sessions.php');
+  include('../zdb/sessions.php');
    
 ?>
 <!DOCTYPE html>
@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <title> Student Research Monitoring System </title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="table.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
@@ -31,25 +32,18 @@
          <span class="tooltip" >Dashboard</span>
       </li>
       <li>
-       <a href="titleproposal.php" style="background-color:#FFFFFF;">
+       <a href="monitoringoftitles.php" style="background-color:#FFFFFF;">
          <i class='bx bx-user' style="color:black;"></i>
-         <span class="links_name" style="color:black;">Title Proposals</span>
+         <span class="links_name" style="color:black;">List of Titles</span>
        </a>
-       <span class="tooltip">Title Proposals</span>
+       <span class="tooltip">List of Titles</span>
      </li>
      <li>
-       <a href="viewuploadeddocuments.php" style="background-color:#FFFFFF;">
+       <a href="monitoringofresearchprogress.php" style="background-color:#FFFFFF;">
          <i class='bx bx-pie-chart-alt-2' style="color:black;" ></i>
-         <span class="links_name" style="color:black;">Documents</span>
+         <span class="links_name" style="color:black;">Research Progress</span>
        </a>
-       <span class="tooltip">Documents</span>
-     </li>
-     <li>
-       <a href="chat.php" style="background-color:#FFFFFF;">
-         <i class='bx bx-pie-chart-alt-2' style="color:black;"></i>
-         <span class="links_name" style="color:black;">Chat/Message</span>
-       </a>
-       <span class="tooltip">Chat/Message</span>
+       <span class="tooltip">Research Progress</span>
      </li>
      <li>
      <li class="profile" style="background-color:#202020;">
@@ -64,15 +58,17 @@
   </div>
   <section class="home-section" style="background-image: url('BG2.jpg');">
   <center><br><br>
-        <img src="logo2.png" align="right" height="100px" width="100px">
-        <img src="Logo.png" align="left" height="100px" width="100px">
-        <h3>Republic of the Philippines</h3>
-        <h2>Laguna State Polytechnic University</h2>
-        <h4>Province of Laguna</h4>
-        <h5>Bachelor of Science in Information Technology</h5>
-      </center>
-  </section>
-
+      <img src="logo2.png" align="right" height="100px" width="100px">
+      <img src="Logo.png" align="left" height="100px" width="100px">
+      <h3>Republic of the Philippines</h3>
+	    <h2>Laguna State Polytechnic University</h2>
+	    <h4>Province of Laguna</h4>
+      <h5>Bachelor of Science in Information Technology</h5>
+    </center>
+    <br>
+    <br>
+  <h1  style="text-align: center"> Dashboard </h1>
+  
   <script src="script.js"></script>
 
 </body>

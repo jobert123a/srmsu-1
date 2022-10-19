@@ -1,5 +1,5 @@
 <?php
-  include('../../db/sessions.php');
+  include('../zdb/sessions.php');
    
 ?>
 <!DOCTYPE html>
